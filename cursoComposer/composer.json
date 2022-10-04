@@ -1,0 +1,25 @@
+{
+    "name": "bruno962/buscador-cursos",
+    "description": "projeto que busca cursos na alura",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "./Test.php"
+        ],
+        "psr-4": {
+            "Bruno962\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Mendes",
+            "email": "brunomg962@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
