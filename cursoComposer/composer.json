@@ -38,8 +38,12 @@
             "phan",
             "cs",
             "phpunit"
+        ],
+        "post-update-cmd": [
+            "@test"
         ]
     },
+    
     "scripts-descriptions": {
         "check": "roda das verificações do código"
     }
