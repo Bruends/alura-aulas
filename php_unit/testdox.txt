@@ -1,0 +1,11 @@
+Leilao (Alura\Leilao\Tests\Model\Leilao)
+ [x] Leilao nao deve receber lances repetidos
+ [x] Leilao recebe lance with data set "2 lances"
+ [x] Leilao recebe lance with data set "1 Lance"
+
+Avaliador (Alura\Leilao\Tests\Service\Avaliador)
+ [x] Avaliador deve encontrar o maior valor with data set #0
+ [x] Avaliador deve encontrar o maior valor with data set #1
+ [x] Avaliador deve buscar tres maiores valores with data set #0
+ [x] Avaliador deve buscar tres maiores valores with data set #1
+

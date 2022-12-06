@@ -6,7 +6,7 @@
   </testsuites>
 
   <logging>
-      <text outputFile="logfile.txt"/>
+      <testdoxText outputFile="testdox.txt"/>
   </logging>
 
 </phpunit>

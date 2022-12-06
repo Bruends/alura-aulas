@@ -10,6 +10,19 @@ use PHPUnit\Framework\TestCase;
 class LeilaoTest extends TestCase
 {
 
+    public function testLeilaoNaoDeveReceberLancesRepetidos() 
+    {
+        $leilao = new Leilao('Variante');
+        $ana = new Usuario('ana');
+
+        $leilao->recebeLance(new Lance($ana, 2000));
+        $leilao->recebeLance(new Lance($ana, 5000));
+
+        self::assertCount(1, $leilao->getLances());
+        self::assertEquals(2000, $leilao->getLances()[0]->getValor());
+
+    }
+
     /**
      * @dataProvider geraLance
      */
