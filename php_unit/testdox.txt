@@ -5,8 +5,10 @@ Leilao (Alura\Leilao\Tests\Model\Leilao)
  [x] Leilao nao deve aceitar mais de cinco lances por usuario
 
 Avaliador (Alura\Leilao\Tests\Service\Avaliador)
+ [x] Leilao vazio nao pode ser avaliado
  [x] Avaliador deve encontrar o maior valor with data set #0
  [x] Avaliador deve encontrar o maior valor with data set #1
  [x] Avaliador deve buscar tres maiores valores with data set #0
  [x] Avaliador deve buscar tres maiores valores with data set #1
+ [x] Leilao finalizado nao pode ser avaliado
 
